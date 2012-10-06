@@ -25,11 +25,21 @@ li.withborder {
 	border-color: lime;
 }
 
+#container {
+	border:2px dotted #00f;
+}
+
 div {
-	background: #888888;
+	border-radius: 10px;
+}
+
+div div {
+	background: #888;
 	border: 1px solid lime;
-	width: 400px;
+	width: 80px;
 	height: 200px;
+	margin: 10px 30px;
+	display: inline-block;
 }
 
 p {
@@ -48,10 +58,35 @@ p {
 		<li class="withborder">second element of list is a bit longer to
 			illustrate wrapping.</li>
 	</ul>
-
-	<div>
-		text
-		<p>other text</p>
+	<div id="container">
+		<div>
+			text
+			<p>other text</p>
+		</div>
+		<div>
+			text
+			<p>other text</p>
+		</div>
+		<div>
+			text
+			<p>other text</p>
+		</div>
+		<div>
+			text
+			<p>other text</p>
+		</div>
+		<div>
+			text
+			<p>other text</p>
+		</div>
+		<div>
+			text
+			<p>other text</p>
+		</div>
+		<div>
+			text
+			<p>other text</p>
+		</div>
 	</div>
 </body>
 </html>
