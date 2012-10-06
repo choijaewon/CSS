@@ -4,31 +4,54 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <style>
-	ul {
-		background:yellow;
-		margin:12px 12px 12px 12px;
-		padding:3px 3px 3px 3px;
-	}
-	li {
-		color:white;
-		background:blue;
-		margin:12px 12px 12px 12px;
-		padding:12px 12px 12px 12px;
-		list-style:none
-	}
-	
-	li.withborder{
-		border-style:dashed;
-		border-width:medium;
-		border-color:lime;
-	}
-	
+ul {
+	background: yellow;
+	margin: 12px 12px 12px 12px;
+	padding: 3px 3px 3px 3px;
+}
+
+li {
+	color: white;
+	background: blue;
+	margin: 12px 12px 12px 12px;
+	padding: 12px 12px 12px 12px;
+	list-style: none;
+	padding: 12px 12px 12px 12px;
+}
+
+li.withborder {
+	border-style: dashed;
+	border-width: medium;
+	border-color: lime;
+}
+
+div {
+	background: #888888;
+	border: 1px solid lime;
+	width: 400px;
+	height: 200px;
+}
+
+p {
+	border: 3px dashed #777;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 </style>
 </head>
 <body>
 	<ul>
 		<li>first element of list</li>
-		<li class="withborder">second element of list is a bit longer to illustrate wrapping.</li> 
+		<li class="withborder">second element of list is a bit longer to
+			illustrate wrapping.</li>
 	</ul>
+
+	<div>
+		text
+		<p>other text</p>
+	</div>
 </body>
 </html>
